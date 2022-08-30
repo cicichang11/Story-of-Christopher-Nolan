@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="keywords" content="ITP 104, Final Project, Christopher Nolan, Movies">
+
+	<meta name="description" content="USC ITP 104 final project made by Cici Chang focuses on the great director, screenwriter, and producer Christopher Nolan. This second page is a movie page that introduces 6 of Nolan's best movies-- Memento, The Prestige, The Dark Knight, Inception, Interstellar, and Tenet in details by including descriptions and videos to show what have made these movies so good and what Nolan has accomplished in each of the movies. By making each movie section take up the entire screen, the page is able to better draw attention to the movie's content and highlight the vibe/characteristics of each movie. Viewers can also switch between the homepage and the movie page by clicks on the corresponding section title in the menu bar. Viewers can watch the short trailer of each movie by clicking on the video play button.">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Nolan's Movies | Cici Chang</title>
+
+	<link href="external.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+	<style>
+		#nav a {
+			font-family: "New Tegomin";
+		}
+
+		h2 {
+			font-size: 2.2em;
+			color: #66FCF1;
+		}
+
+		.intro p {
+			color: #FFF;
+			font-size: 0.9em;
+			font-family: "New Tegomin";
+			background-color: #0B0C10;
+		}
+
+		#header {
+			width: 600px;
+			font-size: 1.4em;
+			float: left;
+			text-align: center;
+			margin-left: 30px;
+			margin-top: 70px;
+			color: #66FCF1;
+		}
+
+		#nolan_face {
+			border-radius: 50%;
+			width: 190px;
+			margin-left: 90px;
+			float: left;
+		}
+
+		#memento {
+			background-image: url('img/memento.jpg');
+			height: 400px;
+			background-size: cover;
+			margin-top: 50px;
+		}
+
+		#prestige {
+			background-image: url('img/prestige.jpg');
+			height: 400px;
+			background-size: cover;
+			margin-top: 30px;
+		}
+
+		#knight {
+			background-image: url('img/knight.jpg');
+			height: 400px;
+			background-size: cover;
+			margin-top: 30px;
+		}
+
+		#inception {
+			background-image: url('img/inception.jpg');
+			height: 400px;
+			background-size: cover;
+			margin-top: 30px;
+		}
+
+		#interstellar {
+			background-image: url('img/interstellar.jpg');
+			height: 400px;
+			background-size: cover;
+			margin-top: 30px;
+		}
+
+		#tenet {
+			background-image: url('img/tenet.jpg');
+			height: 400px;
+			background-size: cover;
+			margin-top: 30px;
+		}
+
+		.intro {
+			width: 600px;
+			color: #45A29E;
+			margin-left: 20px;
+			margin-top: 80px;
+			float: left;
+		}
+
+		.trailer {
+			width: 300px;
+			float: left;
+			margin-left: 50px;
+			margin-top: 130px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="navbar">
+		<div id="nav">
+			<ul>
+				<li> <a href="final_project_homepage.html">Home</a></li>
+				<li>
+					<a href="movies.html" id="active-nav">Movies</a>
+					<ul>
+						<li><a href="movies.html#memento">Memento</a></li>
+						<li><a href="movies.html#prestige">The Prestige</a></li>
+						<li><a href="movies.html#knight">The Dark Knight</a></li>
+						<li><a href="movies.html#inception">Inception</a></li>
+						<li><a href="movies.html#interstellar">Interstellar</a></li>
+						<li><a href="movies.html#tenet">Tenet</a></li>
+					</ul>
+				</li>
+				<li><a href="reviews.html">Reviews</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<div class="clearfloat"></div>
+		</div> <!-- #nav -->
+	</div> <!-- #navbar -->
+	
+	<div id="wrapper">
+		<div id="header">
+			<h1>Movies by Christopher Nolan</h1>
+		</div><!-- #header -->
+
+		<img id="nolan_face" src="img/nolan_face.jpg" alt="Nolan's rounded profile picture">
+
+		<div class="clearfloat"></div>
+
+		<div id="memento">
+			<div class="intro">
+				<h2>Memento</h2>
+				<p>A 2000 American neo-noir psychological thriller film written and directed by Christopher Nolan, and produced by Suzanne and Jennifer Todd. Guy Pearce stars as a man who, as a result of an injury, has anterograde amnesia and has short-term memory loss approximately every fifteen minutes. He is searching for the people who attacked him and killed his wife, using an intricate system of Polaroid photographs and tattoos to track information he cannot remember.</p>
+			</div> 
+			<video controls loop class="trailer">
+				<source src="media/Memento.mp4">
+			</video>
+		</div>
+
+		<div id="prestige">
+			<div class="intro">
+				<h2>The Prestige</h2>
+				<p>A 2006 psychological thriller film directed by Christopher Nolan, written by Nolan and his brother Jonathan, based on the 1995 novel of the same name by Christopher Priest. It follows Robert Angier and Alfred Borden, rival stage magicians in London at the end of the 19th century. Obsessed with creating the best stage illusion, they engage in competitive one-upmanship, with fatal results.</p>
+			</div>
+			<video controls loop class="trailer">
+				<source src="media/prestige.mp4">
+			</video>
+		</div>
+
+		<div id="knight">
+			<div class="intro">
+				<h2>The Dark Knight</h2>
+				<p>A 2008 superhero film directed, produced, and co-written by Christopher Nolan. Based on the DC Comics character Batman, the film is the second installment of Nolan's The Dark Knight Trilogy. In the film, Bruce Wayne / Batman (Bale), Police Lieutenant James Gordon (Oldman) and District Attorney Harvey Dent (Eckhart) form an alliance to dismantle organized crime in Gotham City, but are menaced by an anarchistic mastermind known as the Joker (Ledger), who seeks to undermine Batman's influence and throw the city into anarchy.</p>
+			</div>
+			<video controls loop class="trailer">
+				<source src="media/dark_knight.mp4">
+			</video>
+		</div>
+
+		<div id="inception">
+			<div class="intro">
+				<h2>Inception</h2>
+				<p>A 2010 science fiction action film written and directed by Christopher Nolan, who also produced the film with his wife, Emma Thomas. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious. The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page, Tom Hardy, Dileep Rao, Cillian Murphy, Tom Berenger, and Michael Caine.</p>
+			</div>
+			<video controls loop class="trailer">
+				<source src="media/inception.mp4">
+			</video>
+		</div>
+
+		<div id="interstellar">
+			<div class="intro">
+				<h2>Interstellar</h2>
+				<p>A 2014 British-American epic science fiction film directed and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, John Lithgow, Michael Caine, and Matt Damon. Set in a dystopian future where humanity is struggling to survive, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.</p>
+			</div>
+			<video controls loop class="trailer">
+				<source src="media/interstellar.mp4">
+			</video>
+		</div>
+
+		<div id="tenet">
+			<div class="intro">
+				<h2>Tenet</h2>
+				<p>A 2020 science fiction action-thriller film written and directed by Christopher Nolan, who produced it with Emma Thomas. A co-production between the United Kingdom and United States, it stars John David Washington, Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Michael Caine, and Kenneth Branagh. The film follows a secret agent who learns to manipulate the flow of time to prevent an attack from the future that threatens to annihilate the present world.</p>
+			</div>
+			<video controls loop class="trailer">
+				<source src="media/tenet.mp4">
+			</video>
+		</div>
+
+	</div>  <!-- #wrapper -->
+ 
+	<div id="footer">
+		<p>USC ITP104 Final Project | Cici Chang @ Spring 2021</p>
+	</div> 
+
+</body>
+</html>

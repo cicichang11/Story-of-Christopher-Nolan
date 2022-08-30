@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="keywords" content="ITP 104, Final Project, Christopher Nolan, Contact">
+
+	<meta name="description" content="USC ITP 104 final project made by Cici Chang focuses on the great director, screenwriter, and the producer Christopher Nolan. Few directors have achieved the status that Christopher Nolan has. Highly regarded by critics and Hollywood alike, Nolan’s continued prominence as an auteur of cinema in Hollywood is no surprise. His highly insightful films range from a story of a World War II battle to magicians exploiting the uses of quantum mechanics. With the goal of introducing Nolan's greatness to more people, three parts about Christopher Nolan will be introduced in the project include his biography, works, and comments about Christopher Nolan on why he is such a successful director. Each section will be made into one web page and all linked together. After three pages about Nolan, this page is made for people who want to submit their information for survey purpose or want to ask me more questions about Nolan.">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Contact Us | Cici Chang</title>
+
+	<link href="external.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+	<style>
+		#nav a {
+			font-family: "New Tegomin";
+		}
+
+		h1 {
+			color: #66FCF1;
+			font-size: 2.5em;
+			text-align: center;
+		}
+
+		form {
+			margin-top: 100px;
+			margin-bottom: 150px;
+		}
+
+		.row {
+			margin: 20px 0px;
+		}
+
+		.form_label {
+			display: block;
+			width: 430px;
+			float: left;
+			font-size: 1.2em;
+			color: #45A29E;
+		}
+
+		button {
+			padding: 20px 20px;
+			font-size: 1.1em;
+		}
+
+		#submit_button {
+			background-color: #45A29E;
+			color: #FFF;
+		}
+
+		label {
+			font-size: 1em;
+			color: #45A29E;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="navbar">
+		<div id="nav">
+			<ul>
+				<li><a href="final_project_homepage.html">Home</a></li>
+				<li><a href="movies.html">Movies</a></li>
+				<li><a href="reviews.html">Reviews</a></li>
+				<li><a href="contact.html" id="active-nav">Contact</a></li>
+			</ul>
+			<div class="clearfloat"></div>
+		</div> <!-- #nav -->
+	</div> <!-- #navbar -->
+
+	<div id="wrapper">
+		<h1>Contact Us</h1>
+
+		<form action="confirm.html">
+			<div class="row">
+				<label class="form_label" for="name_id">Name:</label>
+				<input id="name_id" type="text" placeholder="Christopher Nolan">
+			</div> <!-- .row -->
+
+			<div class="row">
+				<label class="form_label" for="email_id">Email:</label>
+				<input id="email_id" type="email" placeholder="cicichan@usc.edu">
+			</div> <!-- .row -->
+
+			<div class="row">
+				<label class="form_label">Gender:</label>
+				<label>
+					<input type="radio" name="gender">
+					Male
+				</label>
+				<label>
+					<input type="radio" name="gender">
+					Female
+				</label>
+			</div> <!-- .row -->
+
+			<div class="row">
+				<label class="form_label">Which of Nolan's Movies Have You Watched?</label>
+				<label>
+					<input type="checkbox">
+					Memento
+				</label>
+				<label>
+					<input type="checkbox">
+					The Prestige
+				</label>
+				<label>
+					<input type="checkbox">
+					The Dark Knight
+				</label>
+				<label>
+					<input type="checkbox">
+					Inception
+				</label>
+				<label>
+					<input type="checkbox">
+					Interstellar
+				</label>
+				<label>
+					<input type="checkbox">
+					Tenet
+				</label>
+			</div> <!-- .row -->
+
+			<div class="row">
+				<label class="form_label" for="msg-id">Questions / Comments:</label>
+				<textarea id="msg-id" placeholder="Hello Cici..."></textarea>
+			</div> <!-- .row -->
+
+			<div class="row">
+				<button id="submit_button" type="submit">Send</button>
+				<button type="reset">Clear</button>
+			</div> <!-- .row -->
+		</form>
+	</div><!-- #wrapper -->
+
+	<div id="footer">
+		<p>USC ITP104 Final Project | Cici Chang @ Spring 2021</p>
+	</div> 
+</body>
+</html>
